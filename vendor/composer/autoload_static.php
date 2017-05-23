@@ -272,6 +272,7 @@ class ComposerStaticInit30de70984cf4318a5b167bdd4fa4ab86
     );
 
     public static $classMap = array (
+        'AddUsersPet' => __DIR__ . '/../..' . '/database/migrations/2017_05_23_191757_add_users_pet.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -295,6 +296,7 @@ class ComposerStaticInit30de70984cf4318a5b167bdd4fa4ab86
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
         'CreateMascotasTable' => __DIR__ . '/../..' . '/database/migrations/2017_05_22_213654_create_mascotas_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreateUserPetTable' => __DIR__ . '/../..' . '/database/migrations/2017_05_23_181911_create_user_pet_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/CronExpression.php',
